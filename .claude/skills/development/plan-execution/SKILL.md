@@ -80,11 +80,7 @@ This command takes a work document (plan, specification, or todo file) and execu
 
 1. **Run Core Quality Checks**
 
-   Always run before submitting:
-
-   ```bash
-   yarn build
-   ```
+   Before submitting make sure to build the project
 
 2. **Consider Reviewer Agents** (Optional)
 
@@ -94,14 +90,7 @@ This command takes a work document (plan, specification, or todo file) and execu
    - **performance-oracle**: Check for performance issues
    - **security-sentinel**: Scan for security vulnerabilities
 
-   Run reviewers in parallel with Task tool:
-
-   ```
-   Task(code-simplicity-reviewer): "Review changes for simplicity"
-   Task(senior-rails-reviewer): "Check Typescript conventions"
-   ```
-
-   Present findings to user and address critical issues.
+   Run reviewers in parallel with Task tool. Present findings to user and address critical issues.
 
 3. **Final Validation**
    - All TodoWrite tasks marked completed

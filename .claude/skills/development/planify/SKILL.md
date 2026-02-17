@@ -7,9 +7,9 @@ description: Create a detailed plan of asked feature, refactor or bug fix
   
 ## Introduction
 
-**Note: The current year is 2026.** Use this when dating plans and searching for recent documentation.
+Use this when dating plans and searching for recent documentation.
 
-Transform feature descriptions, bug reports, or improvement ideas into well-structured markdown files issues that follow project conventions and best practices. This command provides flexible detail levels to match your needs.
+Transform feature descriptions, bug reports, or improvement ideas into well-structured markdown files issues that follow project conventions and best practices. This skill provides flexible detail levels to match your needs.
 
 ## Feature Description
 
