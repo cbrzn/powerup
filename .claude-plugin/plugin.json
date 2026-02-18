@@ -1,0 +1,12 @@
+{
+  "name": "powerup-plugin",
+  "description": "Core skills library for Vibe Coding",
+  "version": "1.0.0",
+  "author": {
+    "name": "Cesar Brazon",
+    "email": "cbrazon@pm.me"
+  },
+  "homepage": "https://github.com/cbrzn/powerup",
+  "repository": "https://github.com/cbrzn/powerup",
+  "license": "MIT"
+}

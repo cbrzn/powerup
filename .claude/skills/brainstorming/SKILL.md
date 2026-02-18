@@ -1,6 +1,6 @@
 ---
 name: brainstorming
-description: "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
+description: "You use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
 ---
 
 # Brainstorming Ideas Into Designs
@@ -25,30 +25,28 @@ Start by understanding the current project context, then ask questions one at a 
 - Present options conversationally with your recommendation and reasoning
 - Lead with your recommended option and explain why
 
-**Presenting the design:**
-- Once you believe you understand what you're building, present the design
+**Presenting the brainstorming:**
+- Once you believe you understand what you're building, present the brainstorm
 - Break it into sections of 200-300 words
 - Ask after each section whether it looks right so far
-- Cover: architecture, components, data flow, error handling, testing
+- Cover: Main ideas the user want to execute on
 - Be ready to go back and clarify if something doesn't make sense
 
-## After the Design
+## After the brainstorm
 
 **Documentation:**
-- Write the validated design to `plans/YYYY-MM-DD-<topic>-design.md`
-- Use elements-of-style:writing-clearly-and-concisely skill if available
-- Commit the design document to git
+- Write the validated brainstorm to `docs/brainstorm/YYYY-MM-DD/<topic>.md`
+- Use `obsidian-markdown` skill to write the brainstorm
 
-**Implementation (if continuing):**
-- Ask: "Ready to set up for implementation?"
-- Use powerup:using-git-worktrees to create isolated workspace
-- Use superpowers:writing-plans to create detailed implementation plan
+**Plan creation based on brainstorming (if continuing):**
+- Ask: "Ready to create a concrete plan for this brainstorm?"
+- Use powerup:planify to create detailed implementation plan
 
 ## Key Principles
 
 - **One question at a time** - Don't overwhelm with multiple questions
 - **Multiple choice preferred** - Easier to answer than open-ended when possible
-- **YAGNI ruthlessly** - Remove unnecessary features from all designs
+- **YAGNI ruthlessly** - Remove unnecessary features from all brainstorms
 - **Explore alternatives** - Always propose 2-3 approaches before settling
-- **Incremental validation** - Present design in sections, validate each
+- **Incremental validation** - Present brainstorm in sections, validate each
 - **Be flexible** - Go back and clarify when something doesn't make sense
