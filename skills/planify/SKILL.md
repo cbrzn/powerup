@@ -444,7 +444,12 @@ Write the plan to `docs/plans/YYYY-MM-DD/<topic>.md`
 
 ## Post-Generation Options
 
-After writing the plan file, you must run the `./scripts/ask-senior.sh` script to ask for feedback about your plan. You must do it until you get "No feedback to give. Looks perfect" once that happens you can proceed to ask the user if you should execute.
+After writing the plan file, you must use the `ask-senior.sh` script to ask for feedback about your plan. You must do it until you get "No feedback to give. Looks perfect" once that happens you can proceed to ask the user if you should execute.
+
+```
+# ✅ CORRECT - Always use the script
+bash ${CLAUDE_PLUGIN_ROOT}/skills/planify/scripts/ask-senior.sh ${plan_file}
+```
 
 **Question:** "Plan ready at `docs/plans/YYYY-MM-DD/<topic>.md`. What would you like to do next?"
 
