@@ -9,7 +9,7 @@
     {
       "name": "powerup",
       "description": "Core skills library for Vibe Coding",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "source": "./",
       "author": {
         "name": "Cesar Brazon",
